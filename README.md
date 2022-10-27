@@ -7,8 +7,7 @@ This repository contains the code for the paper [**Perspective Flow Aggregation 
   <img src="./images/overview.png">
 </p>
 
-Figure 1: Establishing 3D-to-2D correspondences from rendered exemplars. After obtaining an exemplar based on the initial pose, we estimate the 2D-to-2D correspondences
-between the exemplar and the input image within their respective region of interest. This implicitly generates a set of 3D-to-2D correspondences.
+Figure 1: Establishing 3D-to-2D correspondences from rendered exemplars. After obtaining an exemplar based on the initial pose, we estimate the 2D-to-2D correspondences between the exemplar and the input image within their respective region of interest. This implicitly generates a set of 3D-to-2D correspondences, which can be used to obtain the final pose by PnP solvers.
 
 # How to Use
 
