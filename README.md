@@ -32,3 +32,4 @@ Have fun!
 # Notes
 
 * The pose initializations come from [WDR-Pose](https://github.com/cvlab-epfl/wide-depth-range-pose).
+* We use online rendering here (Pytorch3d)
