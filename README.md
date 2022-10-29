@@ -5,17 +5,17 @@ This repository contains the code for the paper [**Perspective Flow Aggregation 
 
 <p align="center">
   <img src="./images/overview.png">
+  <br>
+  <em>From Optical Flow to Pose Refinement. After obtaining an exemplar based on the initial pose, we estimate dense 2D-to-2D correspondences between the exemplar and the input image within their respective region of interest. This implicitly generates a set of 3D-to-2D correspondences, which can be used to obtain the final pose by PnP solvers.</em>
 </p>
-
-Figure 1: Establishing 3D-to-2D correspondences from rendered exemplars. After obtaining an exemplar based on the initial pose, we estimate the 2D-to-2D correspondences between the exemplar and the input image within their respective region of interest. This implicitly generates a set of 3D-to-2D correspondences, which can be used to obtain the final pose by PnP solvers.
 
 # How to Use
 
-Download [LINEMOD data](https://u.pcloud.link/publink/show?code=XZeRguVZTFv4x0yBf5fva1ALHiTC9Y1CzWey), [pose initializations](https://u.pcloud.link/publink/show?code=XZfRguVZMzhhbnvKm6QkvcFyIsdwlhrl352y), and [pretrained model](https://u.pcloud.link/publink/show?code=XZDRguVZHYfOMIyuH6ma8cFjFCi2dh0yBRDy).
+* Download [LINEMOD data](https://u.pcloud.link/publink/show?code=XZeRguVZTFv4x0yBf5fva1ALHiTC9Y1CzWey), [pose initializations](https://u.pcloud.link/publink/show?code=XZfRguVZMzhhbnvKm6QkvcFyIsdwlhrl352y), and [pretrained model](https://u.pcloud.link/publink/show?code=XZDRguVZHYfOMIyuH6ma8cFjFCi2dh0yBRDy).
 
-Extract LINEMOD into "data" in the current directory.
+* Extract LINEMOD into "data" in the current directory.
 
-Have fun!
+* Have fun!
 
 # Citing
 
