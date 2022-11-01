@@ -37,4 +37,4 @@ This repository contains the code for the paper [**Perspective Flow Aggregation 
 # Notes
 
 * The pose initializations come from [WDR-Pose](https://github.com/cvlab-epfl/wide-depth-range-pose).
-* We use online rendering here (Pytorch3d)
+* We use online rendering (Pytorch3d) in this repo, which is the version used in the best single-model method in [BOP challenge 2022](https://bop.felk.cvut.cz/home/).
