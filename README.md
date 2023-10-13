@@ -77,4 +77,4 @@ cls_12  74.27   91.77   97.63   98.77   90.22   87.42   98.01   98.77   98.96
 # Notes
 
 * The pose initializations come from [WDR-Pose](https://github.com/cvlab-epfl/wide-depth-range-pose).
-* We use online rendering (Pytorch3d) in this repo, which is the version used in the best single-model method in [BOP challenge 2022](https://bop.felk.cvut.cz/home/).
+* We use online rendering (Pytorch3d) in this repo, which is the version used in the best single-model method in [BOP challenge 2022 and 2023](https://bop.felk.cvut.cz/home/).
